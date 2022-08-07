@@ -6,14 +6,14 @@ body {
 }
 
 
-  #question1 {
+#question1 {
     background-image: linear-gradient(to right, #B2E6D4 , #A49E8D);    
     border: solid 5px #504136;
     margin-bottom: 10px;
   }
 
 
-  #question2 {
+#question2 {
     background-image: linear-gradient(#B2E6D4 , #A49E8D);    
     border: solid 5px #504136;
     margin-bottom: 10px;
@@ -29,8 +29,21 @@ body {
     background-image: linear-gradient(to left, #B2E6D4 , #A49E8D);    
     border: solid 5px #504136;
     margin-bottom: 10px;
+
 }
 
+a {
+  color: black;
+  width: 20%;
+  text-align: left;
+  text-decoration: none;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
 img {
   width: 400px;
 }

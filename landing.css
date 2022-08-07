@@ -1,0 +1,13 @@
+body {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    background-image: url("https://img.freepik.com/premium-vector/cherry-blossom-branch-with-sakura-flower-sakura-white-background-watercolor-cherry-blossom-vector-pink-sakura-flower-background-watercolor-cherry-bud-cherry-blossom-branch-with-pink-flower_538213-360.jpg?w=2000");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+a {
+    color: black;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
