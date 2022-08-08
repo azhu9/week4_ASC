@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <title>Anime Trivia Race</title>
-       <script src = "main.js"></script>
-        <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-    <a href = "index.html"><h3>Back to Home</h3></a>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Trivia Race</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html">
+        <h3>Back to Home</h3>
+    </a>
     <h1>True or False:</h1>
-    <div id = question1>
-        <h2>Kakashi was born with a Sharingan</h2>
-        <img src = "https://media0.giphy.com/media/diBEnAwwUG7UA/100.webp?cid=ecf05e47s3kvyj9y9m2u4hqksoni7h15ex1atpuoe6ax1kgj&rid=100.webp&ct=g">
-            <div class = tf>
-            <button class = true>True</button>
-            <button class = false>False</button>
-        </div> 
+    <div id="question1">
+        <h2>Kakashi was not born with a Sharingan</h2>
+        <img
+            src="https://media0.giphy.com/media/diBEnAwwUG7UA/100.webp?cid=ecf05e47s3kvyj9y9m2u4hqksoni7h15ex1atpuoe6ax1kgj&rid=100.webp&ct=g" />
+        <div class="tf">
+            <button id="t1">True</button>
+            <button id="f1">False</button>
+            <h3 id = "a1">Your Answer:</h3>
+        </div>
     </div>
-    <div id = question2>
+    <div id="question2">
         <h2> Once Piece is the longest Anime</h2>
-        <img src="https://img4.hulu.com/user/v3/artwork/c7a08df6-d0d5-4dd3-afff-d1f90133cd4e?base_image_bucket_name=image_manager&base_image=31f90904-d759-496c-82e2-b4c9c145f36a&size=1200x630&format=jpeg">
-        <div class = tf>
-            <button class = true>True</button>
-            <button class = false>False</button>
-        </div> 
+        <img
+            src="https://img4.hulu.com/user/v3/artwork/c7a08df6-d0d5-4dd3-afff-d1f90133cd4e?base_image_bucket_name=image_manager&base_image=31f90904-d759-496c-82e2-b4c9c145f36a&size=1200x630&format=jpeg"/>
+        <div class=tf>
+            <button id="t2">True</button>
+            <button id="f2">False</button>
+            <h3 id = "a2">Your Answer:</h3>
+        </div>
     </div>
-    <div id = question3>
+    <div id="question3">
         <h2> Gohan was the name of Goku's father</h2>
-        <img src = "https://pm1.narvii.com/6584/b4627ae5bc4fb1f0bb9f43b61699a3711ae96bab_hq.jpg">
-        <div class = tf>
-            <button class = true>True</button>
-            <button class = false>False</button>
-        </div> 
+        <img src="https://pm1.narvii.com/6584/b4627ae5bc4fb1f0bb9f43b61699a3711ae96bab_hq.jpg"/>
+        <div class="tf">
+            <button id="t3">True</button>
+            <button id="f3">False</button>
+            <h3 id = "a3">Your Answer:</h3>
+        </div>
     </div>
-    <div id = question4>
+    <div id="question4">
         <h2> Tokyo Ghoul Solos</h2>
-        <img src = "https://media2.giphy.com/media/e9pFONc1qhUje/200w.webp?cid=ecf05e47viu6u7yl2q9bhjbwwnno9obaxtyvzgvafhcblz9n&rid=200w.webp&ct=g">
-        <div class = tf>
-            <button class = true>True</button>
-            <button class = false>False</button>
-        </div> 
+        <img
+            src="https://media2.giphy.com/media/e9pFONc1qhUje/200w.webp?cid=ecf05e47viu6u7yl2q9bhjbwwnno9obaxtyvzgvafhcblz9n&rid=200w.webp&ct=g"/>
+        <div class="tf">
+            <button id="t4">True</button>
+            <button id="f4">False</button>
+            <h3 id = "a4">Your Answer:</h3>
+        </div>
     </div>
-    <div id = submit>
-        <button>Submit</button>
-        <h3></h3>
+    <div>
+        <button id = "submit">Submit</button>
+        <h1 id="score"></h1>
     </div>
-   </body>
+    <script src="main.js"></script>
+</body>
+
 </html>

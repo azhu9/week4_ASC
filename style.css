@@ -43,16 +43,8 @@ button {
   width: 100px;
   height: 30px;
   margin: 10px;
+  border-radius: 10px;
 }
 img {
   width: 400px;
-}
-
-
-.false {
-    /* border: solid */
-}
-
-.true {
-    /* border: solid; */
 }
